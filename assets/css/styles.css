@@ -154,10 +154,10 @@ header nav li:last-child{
 
 
 /*----------------
- 	Advisor Section
+ 	Main-banner Section
 ----------------*/
 
-.advisor{
+.main-banner{
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
@@ -165,7 +165,7 @@ header nav li:last-child{
 	text-align: center;
 }
 
-.advisor .background-image{
+.main-banner .background-image{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -176,47 +176,36 @@ header nav li:last-child{
 	z-index: -1;
 }
 
-.advisor .background-image:after{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #f7f7f7;
-	opacity: 0.75;
-}
-
-.advisor h1{
+.main-banner h1{
 	font: bold 60px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
 }
 
-.advisor h3{
+.main-banner h3{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
 
-.advisor a.btn{
+.main-banner a.btn{
 	padding: 12px 34px;
 	background-color: #DD4E40;
 }
 
 @media (max-width: 800px){
 
-	.advisor{
+	.main-banner{
 		min-height: 600px;
 	}
 
-	.advisor h1{
+	.main-banner h1{
 		font-size: 48px;
 	}
 
-	.advisor h3{
+	.main-banner h3{
 		font-size: 24px;
 	}
 
-	.advisor a.btn{
+	.main-banner a.btn{
 		padding: 15px 40px;
 	}
 
@@ -454,8 +443,3 @@ footer p a{
 }
 
 
-/* -- Demo ads -- */
-
-@media (max-width: 1200px) {
-	#bsaHolder{ display:none;}
-}

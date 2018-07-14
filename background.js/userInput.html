@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<header>
+    <p>Please input the following information</p>
+</header>
+
+<div class="container">
+
+    <form>
+        <!-- Make sure that text boxes are all lined up regardless of form name. This has to be done in bootstrap.css-->
+        <label>First Name</label>
+        <input type="text" name="first"><br />
+        <label>Last Name</label>
+        <input type="text" name="last"><br />
+        <label>Email</label>
+        <input type="text" name="email"><br />
+        <!-- Drop down list for Education-->
+        <label for="education">Education</label>
+
+            <select id="education" name="education">
+
+                <option value="" selected>Please choose</option>
+                <option value="Less than Grade 12">Less Thank Grade 12</option>
+                <option value="High School/GED">High School/GED</option>
+                <option value="College">College</option>
+                <option value="Vocational School">Vocational School</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="More than a Masters">More than a Masters</option>
+                <option value="Other">Other</option>
+            </select>
+
+
+
+
+            <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+
+
+</body>
+</html>

@@ -548,6 +548,7 @@ pre code {
 }
 
 .container {
+  background-color: red;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
